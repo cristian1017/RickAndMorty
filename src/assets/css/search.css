@@ -1,0 +1,36 @@
+.search {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.search input {
+  box-shadow: none;
+  border-radius: 20px;
+  height: 50px;
+  outline: none;
+  width: 100%;
+}
+
+.search input:focus{
+  border: none;
+}
+
+.btn-search {
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 12px rgba(169, 27, 27, 0.5);
+  font-size: 18.005px;
+  padding-left: 1.528em;
+  padding-right: 1.528em;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 2.778em;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  border: 1px solid black;
+}
